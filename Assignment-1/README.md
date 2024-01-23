@@ -21,7 +21,7 @@ We are using GitHub classroom for submission of programming assignments.  This s
 
 LINK TO BE ADDED
 
-**Step 2: **Your repository will be created in the [course GitHub organization](https://github.com/CSCI-4611-Spring-2024).  You will need to open your repository on GitHub and go to Settings->Pages, then change the Source to the `GitHub Actions`, as shown in the image below.  You must complete this step or you will not be able to build and deploy your project to GitHub pages!
+**Step 2:** Your repository will be created in the [course GitHub organization](https://github.com/CSCI-4611-Spring-2024).  You will need to open your repository on GitHub and go to Settings->Pages, then change the Source to the `GitHub Actions`, as shown in the image below.  You must complete this step or you will not be able to build and deploy your project to GitHub pages!
 
 ![GitHub screenshot](./images/github.jpg)
 
