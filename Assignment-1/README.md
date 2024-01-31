@@ -1,6 +1,8 @@
 # Assignment 1: Space Minesweeper
 
-**Due: Monday, February 5, 11:59pm CDT**
+**Due: Monday, February 5, 11:59pm CT**
+
+*Note: Deadline has been extended to Tuesday, February 6.*
 
 This assignment involves creating a simple, fun game using 2D graphics. You will learn to:
 
