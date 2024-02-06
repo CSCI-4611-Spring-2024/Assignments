@@ -160,6 +160,10 @@ For the last part of this assignment, you should add code in the `startNextStage
 - Winning the game requires getting smaller objects first to make the hole large enough to get the larger objects. (1)
 - The game should not be trivial to complete. For example, just placing stationary objects on the ground or creating a bunch of random spheres would not be sufficient. We want to see evidence that you have put some thought into creating the scene. You could create a series of moving objects, set up a [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine), or arrange the spheres in some sort of puzzle. Creativity is encouraged! (2) 
 
+#### Submission: Build and Deploy
+
+- Build and deploy your project to GitHub Pages using the steps described below. (-1 deduction for skipping this step)
+
 
 ## Wizard Bonus Challenge
 
