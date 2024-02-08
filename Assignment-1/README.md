@@ -99,7 +99,7 @@ This assignment is divided into seven parts.  The provided starter code implemen
 
 #### Part 7: Build and Deploy
 
-- Build and deploy your project to GitHub Pages using the steps described below. (1)
+- To complete the submission, you will need to update your `README.md` file, then build and deploy your project to GitHub Pages as described below. (1)
 
 ## Wizard Bonus Challenge
 
@@ -113,7 +113,7 @@ The wizard bonus challenge also offers you a chance to show off your skills and 
 
 ## Building and Deploying to GitHub Pages
 
-When you have finished the assignment, you will need to run the following command to generate a build:
+When you have finished the assignment, you should complete the missing information in your `README.md` file. Then, will need to run the following command to generate a build:
 
 ```
 npm run build
