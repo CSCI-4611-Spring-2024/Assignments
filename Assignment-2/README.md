@@ -22,7 +22,9 @@ We are using GitHub classroom for submission of programming assignments.  When y
 
 **Step 2:** Your repository will be added to the [GitHub course organization](https://github.com/CSCI-4611-Spring-2024).  You will need to open your repository on GitHub, then go to Settings->Pages and change the build and deployment source to `GitHub Actions`, as shown in the image below.  You **must** complete this step or you will not be able to to deploy the finished assignment.
 
-**Step 3:** Check out the code to your local machine. If you are not familiar with using `git` from the command line, then I recommend using a GUI such as [GitHub Desktop](https://desktop.github.com/) or [GitKraken](https://www.gitkraken.com/). 
+**Step 3:** Check out the code to your local machine **using a git client**. If you are not familiar with using `git` from the command line, then I recommend using a GUI-based client such as [GitHub Desktop](https://desktop.github.com/), [GitKraken](https://www.gitkraken.com/), or the [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extension for VS Code. 
+
+Do **not** simply download the contents of your repository as a ZIP file!  This is not the right way to use version control, and you will be unable to push your local changes back to the GitHub repository. 
 
 
 
@@ -162,7 +164,7 @@ For the last part of this assignment, you should add code in the `startNextStage
 
 #### Submission: Build and Deploy
 
-- To complete the submission, you will need to update your `README.md` file, then build and deploy your project to GitHub Pages as described below.  (-1 point deduction for skipping either of these steps)
+- To complete the submission, you will need to update your `README.md` file, build your project, and then commit/push both your code **and** the contents of the `dist` folder to GitHub as described below.  (-1 point deduction for skipping these steps)
 
 ## Wizard Bonus Challenge
 
@@ -184,7 +186,7 @@ When you have finished the assignment, you should complete the missing informati
 npm run build
 ```
 
-This compiles your TypeScript program into a JavaScript bundle that will be placed in the `dist` folder. To complete your submission, you should commit the contents of the `dist` folder and then push to GitHub. This will trigger a server-side workflow that will automatically deploy your build as a website on GitHub pages. Note that you may need to wait a minute or two for the deployment to become active.
+This compiles your TypeScript program into a JavaScript bundle that will be placed in the `dist` folder. To complete your submission, you should commit your code changes **and** the contents of the `dist` folder to your repository, and then push to GitHub. This will trigger a server-side workflow that will automatically deploy your build as a website on GitHub pages. Note that you may need to wait a minute or two for the deployment to become active.
 
 Make sure to test everything by pointing your web browser at the GitHub pages URL for your repository:
 
