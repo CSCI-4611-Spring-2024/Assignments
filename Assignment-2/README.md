@@ -99,6 +99,16 @@ Notice that the figure illustrates the case where the two spheres overlap each o
 
 To correct the collision, we need to move each sphere in the reverse direction to "back out" of the intersection. The compute the backwards direction, we can simply **normalize the sphere's velocity vector and then negate it**. We can then scale this vector by the distance each sphere needs to move, which is the **sum of the sphere radii minus the distance between their centers**.
 
+*Added 2/16/2024* 
+
+As discussed in Lecture 10, a student correctly pointed out that the distance calculation above is actually an approximation. When moving both spheres, determining the exact distance actually requires a bit of trigonometry.  If you already implemented this method, then that is fine, and you do not need to change anything.  It actually works pretty well despite being an approximation.
+
+However, we can also consider a simplified version of this problem.  We don't necessarily need to consider the velocity vectors, and we can also move only **one sphere** instead of updating both of their positions. To compute the direction, you could just take the difference between the two sphere positions and then normalize it. Then, to compute the distance, the calculation provided above (sum of the sphere radii minus the distance between their centers) will result in the two spheres touching exactly, as shown in case 2 of the following image.
+
+![](./images/collision5.jpg)
+
+In summary, the goal here is to make sure that the spheres are touching, but not overlapping. There are multiple ways to achieve this by moving either one sphere or both spheres in different directions, and the implementation details don't actually matter much on a practical level.  So, as long as you achieve the required goal state, then you will get full credit for this part.
+
 #### Updating Velocity After a Collision
 
 When a rigid body bounces off another object, its velocity *v* changes, but how? It depends on the normal of the surface they come into contact. The following illustration shows a sphere bouncing off the ground plane. In this case, computing updating the sphere's velocity is very straightforward; we simply negate *v.y*, leaving *v.x* and *v.z* unchanged.
