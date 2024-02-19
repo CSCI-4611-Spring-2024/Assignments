@@ -2,6 +2,8 @@
 
 **Due: Monday, February 19, 11:59pm CDT**
 
+*Note: Deadline has been extended to **Wednesday, February 21**.*
+
 The goal of this assignment is to create a fun 3D physics video game inspired by the delightfully clever 2018 game [Donut County](http://www.donutcounty.com/), which was created by indie developer [Ben Esposito](https://www.torahhorse.com/) based on a concept that originated during a game jam. In this game, the player controls a hole in the ground that increases in size each time an object falls inside it, eventually becoming large enough to swallow entire buildings.
 
 This program covers a number of important computer graphics concepts.  Specifically, you will learn to:
