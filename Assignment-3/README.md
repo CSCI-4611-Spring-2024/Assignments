@@ -2,6 +2,8 @@
 
 **Due: Monday, March 11, 11:59pm CDT**
 
+*Note: Deadline has been extended to **Tuesday, March 12**.*
+
 Visualizations incorporating geospatial data are used and analyzed in many different contexts, including navigating a city (as seen in GPS devices), commercial development, and setting governmental policy. This area also receives a significant amount of research attention. For example, Prof. Vipin Kumar and others at the University of Minnesota are working on visualizing and understanding global warming datasets as part of a [National Science Foundation project](http://climatechange.cs.umn.edu).
 
 For this assignment, you will be working with data from NASA and the USGS to visualize on a globe the locations where earthquakes happened between 1905 and 2007.  Your application will be able to morph between two complementary views of the data, a 2D map view and a 3D globe view, as shown below. 
