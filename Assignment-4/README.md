@@ -110,9 +110,11 @@ If this part is correct, a stick figure should show up when you choose the Skele
 
 **Part 4: App.ts**. (3 points total)
 
-- **Part 6.1:** Load 4 additional animations from the CMU motion database. (1 points)
+- **Part 6.1:** Load 4 additional animations from the CMU motion database. (1 point)
 
-- **Part 6.2:** Trim each newly loaded animation so there is no “idle” time at the beginning and end of each clip. (2 points)
+- **Part 6.2:** Trim each new animation so there is no “idle” time at the beginning and end of each clip. (1 point)
+
+- **Part 6.3:** Add each animation to the ballet character's overlay queue when the appropriate GUI button is clicked. (1 point)
 
 Please pick your motions such that the character does not end up off screen when you run through the animations in sequence 1, 2, 3, 4, 5.  This will make it more efficient for the TAs to grade.
 
