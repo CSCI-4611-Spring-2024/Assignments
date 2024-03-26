@@ -2,6 +2,8 @@
 
 **Due: Wednesday, March 27, 11:59pm CDT**
 
+*Note: Deadline has been extended to **Thursday, March 28**.*
+
 Animated characters are an important part of computer games and other interactive graphics. In this assignment, you will learn how to animate computer graphics characters using data from motion capture systems. You will be working with data from the [Carnegie Mellon motion capture database](http://mocap.cs.cmu.edu/), a great resource of free "mocap" data. The data will be formatted as text files, but with your programming and math skills, you will bring this data to life on the dance floor!
 
 The CMU motion capture data is typical of all the skeleton-based motion capture data found in games and movies. So, gaining some experience with this type of animation is one of the most important goals of the assignment. There are several important learning goals, including:
