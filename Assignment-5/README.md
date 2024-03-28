@@ -213,13 +213,12 @@ However, **for this assignment only, after you have successfully completed the c
 
 All of the assignments in the course will include great opportunities for students to go beyond the requirements of the assignment and do cool extra work. On each assignment, you can earn **one bonus point** for implementing a meaningful new feature to your program. This should involve some original new programming, and should not just be something that can be quickly implemented by copying and slightly modifying existing code.
 
-There are great opportunities for extra work in this assignment. Once you get the hang of them, shaders can be really fun! You can use them to implement other cool effects like adding stripes, waves, random noise, or bumps to the surface. To add a new shader to a GopherGfx application, you will need to write a new Material class in TypeScript. The easiest way to do this is to copy and modify one of the existing simple Material classes, like the Gouraud, Phong, or Unlit materials. In terms of the actual shader techniques and code, examples using Three.js will probably be the closest to GopherGfx, since both graphics libraries are written on top of WebGL and use GLSL shaders. In general, many WebGL and Three.js shader tutorials will contain usable GLSL code, there may just be some differences in the CPU code used to initialize and pass data to the shaders. Here are some examples written in Three.js that could be interesting to explore:
+There are great opportunities for extra work in this assignment. Once you get the hang of them, shaders can be really fun! You can use them to implement other cool effects like adding stripes, waves, random noise, or bumps to the surface. To add a new shader to a GopherGfx application, you will need to write a new Material class in TypeScript. The easiest way to do this is to copy and modify one of the existing simple Material classes, like the Gouraud, Phong, or Unlit materials. In terms of the actual shader techniques and code, examples using Three.js will probably be the closest to GopherGfx, since both graphics libraries are written on top of WebGL and use GLSL shaders. In general, many WebGL and Three.js shader tutorials will contain usable GLSL code, but there CPU code used to initialize and pass data to the shaders will be different. Here are some examples written in Three.js that could be interesting to explore:
 
 - [Lava](https://threejs.org/examples/webgl_shader_lava.html)
 - [Water](https://threejs.org/examples/webgl_shaders_ocean.html)
 - [Flame](https://threejs-flame-shader.vercel.app/)
 - [Grain](https://tympanus.net/codrops/2022/03/07/creating-a-risograph-grain-light-effect-in-three-js/)
-- [Tone Mapping](https://threejs.org/examples/webgl_shaders_tonemapping.html)
 
 ## Building and Deploying to GitHub Pages
 
