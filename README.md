@@ -6,5 +6,5 @@
 
 **Assignment 4:** [So You Think Ants Can Dance](https://github.com/CSCI-4611-Spring-2024/Assignments/blob/main/Assignment-4/README.md)
 
-**Assignment 4:** [Artistic Rendering](https://github.com/CSCI-4611-Spring-2024/Assignments/blob/main/Assignment-5/README.md)
+**Assignment 5:** [Artistic Rendering](https://github.com/CSCI-4611-Spring-2024/Assignments/blob/main/Assignment-5/README.md)
 
