@@ -206,6 +206,9 @@ If your program runs correctly, then you are finished! Note that the published J
 - Ported to MinGfx and additional refinements by Daniel Keefe and TAs, 2018-2021.
 - GopherGfx implementation and significant additions, including normal mapping and stencil buffer silhouette rendering, by Evan Suma Rosenberg, 2022-2023.
 - Significant revisions to assignment description by Daniel Keefe and TAs, 2023.
+- Additional revisions to assignment description by Evan Suma Rosenberg, 2024.
+
+- The PBR textures and normal maps were obtained from [3dtextures.me](https://3dtextures.me/).
 
 ## License
 
