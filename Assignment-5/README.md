@@ -175,9 +175,51 @@ To compare the results, activate one of the textures and then toggle back and fo
 
 Graded out of 20 points.  Partial credit is possible for each step.
 
+**Part 1: Gouraud and Phong Shaders** (2 points total)
+
+- Fill in the code to create your own Gouraud shader (1)
+- Fill in the code to create your own Phong shader (1)
+
+**Part 2: Toon Shaders** (5 points total)
+
+- Set up the initial vertex and fragment shaders by adapting code from the Phong shader (1)
+- Compute and apply the diffuse component using a lookup into the `diffuseRamp` texture. (2)
+- Compute and apply the specular component using a lookup into the `specularRamp` texture. (2)
+
+**Part 3: Outline Vertex Shader** (5 points total)
+
+- Calculate the vertex position and normal in view space (2)
+- Displace the view space position by the correct direction and distance (2)
+- Project the final position into screen coordinates for output to the fragment shader (1)
+
+**Part 4.1: Normal Map Vertex Shader** (4 points total)
+
+- Calculate the tangent and normal vectors in world space (2)
+- Calculate the bitangent vector (1)
+- Construct the TBN matrix (1)
+
+**Part 4.2: Normal Map Fragment Shader** (4 points total)
+
+- Look up the fragment normal in the normal map (2)
+- Rescale the fragment normal into the correct range (2)
+
+## Academic Integrity Reminder
+
+Shaders are hard to learn, and you will find tons of resources, examples, and other information online. However, you would defeat the purpose of the assignment if you use these online resources to complete the core program (and break our course rules). Although you are expected to use the provided online tutorials to complete the normal mapping shaders, note that this assignment was specifically designed to be implemented using those two specific examples. Therefore, to solve the core assignment, you must **only** use our course materials, the specific tutorials referenced in this document, and the [official GLSL documentation](https://docs.gl/). And as a reminder, using AI to generate code, such as ChatGPT (or any others from the ever-growing list of large language models), or use of integrated development tools like GitHub Copilot is prohibited.
+
+However, **for this assignment only, after you have successfully completed the core assignment**, if you wish to continue working on Wizardly extensions, it is fine to use online resources to continue learning more about shaders and/or even implement examples that you find on the internet. Make sure to **cite any external sources of inspiration** AND, as always, **document your wizard functionality** in your readme file. Aside from any licensing issues that may surround the code you are using, we need you to cite your sources and inspirations so that we may accurately understand how much of your wizardly work represents your own intellectual contribution. Also, from an ethical perspective, it's just the right thing to do!
+
 ## Wizard Bonus Challenge
 
-To be added.
+All of the assignments in the course will include great opportunities for students to go beyond the requirements of the assignment and do cool extra work. On each assignment, you can earn **one bonus point** for implementing a meaningful new feature to your program. This should involve some original new programming, and should not just be something that can be quickly implemented by copying and slightly modifying existing code.
+
+There are great opportunities for extra work in this assignment. Once you get the hang of them, shaders can be really fun! You can use them to implement other cool effects like adding stripes, waves, random noise, or bumps to the surface. To add a new shader to a GopherGfx application, you will need to write a new Material class in TypeScript. The easiest way to do this is to copy and modify one of the existing simple Material classes, like the Gouraud, Phong, or Unlit materials. In terms of the actual shader techniques and code, examples using Three.js will probably be the closest to GopherGfx, since both graphics libraries are written on top of WebGL and use GLSL shaders. In general, many WebGL and Three.js shader tutorials will contain usable GLSL code, there may just be some differences in the CPU code used to initialize and pass data to the shaders. Here are some examples written in Three.js that could be interesting to explore:
+
+- [Lava](https://threejs.org/examples/webgl_shader_lava.html)
+- [Water](https://threejs.org/examples/webgl_shaders_ocean.html)
+- [Flame](https://threejs-flame-shader.vercel.app/)
+- [Grain](https://tympanus.net/codrops/2022/03/07/creating-a-risograph-grain-light-effect-in-three-js/)
+- [Tone Mapping](https://threejs.org/examples/webgl_shaders_tonemapping.html)
 
 ## Building and Deploying to GitHub Pages
 
