@@ -1,6 +1,6 @@
 # Assignment 5: Artistic Rendering
 
-**Due: Wednesday, April 10, 11:59pm CDT**
+**Due: Monday, April 15, 11:59pm CDT**
 
 GLSL shaders make it possible for us to create some amazing lighting effects for real-time computer graphics. These range from photorealistic lighting to artistically inspired non-photorealistic rendering, as featured in games like *The Legend of Zelda: Breath of the Wild* and *Team Fortress 2*. In this assignment, you will implement GLSL shaders that can produce cartoon shading with a silhouette outline to complete the artistic effect.  You will also complete the implementation of a normal mapping shader that can render photorealistic textures on surfaces to make them appear more detailed and complex.
 
@@ -202,6 +202,10 @@ Graded out of 20 points.  Partial credit is possible for each step.
 
 - Look up the fragment normal in the normal map (2)
 - Rescale the fragment normal into the correct range (2)
+
+**Submission**
+
+- To complete the submission, you will need to update your `README.md` file, build your project, and then commit/push both your code **and** the contents of the `dist` folder to GitHub as described below.  (-2 point deduction for skipping these steps)
 
 ## Academic Integrity Reminder
 
