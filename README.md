@@ -8,3 +8,4 @@
 
 **Assignment 5:** [Artistic Rendering](https://github.com/CSCI-4611-Spring-2024/Assignments/blob/main/Assignment-5/README.md)
 
+**Assignment 6:** [A World of Drawings](https://github.com/CSCI-4611-Spring-2024/Assignments/blob/main/Assignment-6/README.md)
