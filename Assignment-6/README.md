@@ -195,16 +195,12 @@ If your program runs correctly, then you are finished! Note that the published J
 
 ## Acknowledgments
 
-- Original assignment developed by Daniel Keefe and TAs, 2012, 2014.
+- Original C++ assignment by Daniel Keefe and TAs, 2018-2021.
 
-- Significant additions, including silhouette rendering, by Rahul Narain and TAs, 2016.
+- GopherGfx implementation by Evan Suma Rosenberg, 2022-2023.
 
-- Ported to MinGfx and additional refinements by Daniel Keefe and TAs, 2018-2021.
-- GopherGfx implementation and significant additions, including normal mapping and stencil buffer silhouette rendering, by Evan Suma Rosenberg, 2022-2023.
-- Significant revisions to assignment description by Daniel Keefe and TAs, 2023.
-- Additional revisions to assignment description by Evan Suma Rosenberg, 2024.
+- Additional refinements by Daniel Keefe in Fall 2023 and Evan Suma Rosenberg in Spring 2024.
 
-- The PBR textures and normal maps were obtained from [3dtextures.me](https://3dtextures.me/).
 
 ## License
 
