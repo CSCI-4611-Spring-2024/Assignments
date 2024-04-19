@@ -109,13 +109,13 @@ The specification for how to edit the ground in response to the stroke drawn by 
 
 Terrain-editing strokes must start and end on the ground. Call the starting and ending points *S* and *E*… [T]hese two points, together with the **y**-vector, determine a plane in *R3*, that we call the *projection plane*. The points of the terrain-editing stroke are projected onto this plane (this projection, which is a curve in *R3*, is called the *silhouette curve*); the shadow of the resulting curve (as cast by a sun directly overhead) is a path on the ground (we call this the *shadow*). Points near the shadow have their elevation altered by a rule: each point *P* near the shadow computes its new height (*y*-value), *P'y* , as a convex combination
 
-![](C:\Teaching\CSCI-4611-2023-Spring-Prep\Assignments (Finished)\Assignment-6\images\equation1.png)
+![](./images/equation1.png)
 
 *(This equation is edited slightly from the original text to include the two cases.)*
 
 where *d* is the distance from *P* to the projection plane, *h* is the *y*-value of the silhouette curve over the nearest point on the projection plane to *P*, and *w*(*d*) is a weighting function given by
 
-![](C:\Teaching\CSCI-4611-2023-Spring-Prep\Assignments (Finished)\Assignment-6\images\equation2.png)
+![](./images/equation2.png)
 
 This gives a parabolic cross-section of width 10 for a curve drawn over level terrain. Other choices for *w* would yield hills with different shapes that might be more intuitive, but this particular choice gives reasonable results in most cases.
 
